@@ -1,9 +1,8 @@
 version: "3"
 services:
   springboot:
-    image: springboot-mongodb-demo:1.0
+    image: springboot-mongo-app
     container_name: springboot-mongodb-app
-    build: .
     restart: always
     ports:
       - 8080:8080
